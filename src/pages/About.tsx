@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { 
@@ -111,9 +111,9 @@ const About = () => {
       <section className="relative py-32 bg-primary-900 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://plus.unsplash.com/premium_photo-1661407772941-c5a2a5c9595b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGFyayUyMG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D"
             alt="Team collaboration"
-            className="w-full h-full object-cover opacity-30"
+            className="w-full h-full object-cover opacity-100"
           />
           <div className="absolute inset-0 bg-primary-900/70"></div>
         </div>

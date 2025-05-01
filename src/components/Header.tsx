@@ -39,7 +39,7 @@ const Header = () => {
     <header
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-white/90 backdrop-blur-md shadow-md py-3'
+          ? 'bg-[#000000ac] text-white backdrop-blur-md shadow-md py-3'
           : 'bg-transparent py-5'
       }`}
     >
@@ -51,9 +51,7 @@ const Header = () => {
               <h1 className={`font-bold text-lg ${scrolled ? 'text-primary-900' : 'text-white'}`}>
                 GenX<span className="text-secondary-500">IT</span>Solution
               </h1>
-              <p className={`text-xs ${scrolled ? 'text-gray-600' : 'text-gray-200'}`}>
-                Pvt. Ltd.
-              </p>
+              
             </div>
           </Link>
 
@@ -66,10 +64,10 @@ const Header = () => {
                 className={`relative font-medium text-sm transition-colors hover:text-secondary-500 ${
                   location.pathname === link.path
                     ? scrolled
-                      ? 'text-secondary-500'
-                      : 'text-secondary-300'
+                      ? 'text-white'
+                      : 'text-white'
                     : scrolled
-                    ? 'text-gray-800'
+                    ? 'text-gray-300'
                     : 'text-white'
                 }`}
               >

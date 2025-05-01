@@ -109,7 +109,7 @@ const Home = () => {
       title: 'Healthcare Management System',
       client: 'MedLife Solutions',
       description: 'Custom healthcare platform that streamlined patient management and reduced administrative time by 60%.',
-      image: 'https://images.pexels.com/photos/3846115/pexels-photo-3846115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRoFLCB0WZM6EUcEYpQS3rtcrJKD9F0hnj0h0jptwU7Er9_ZBG5WDB9e99oIPqM2oMQzg&usqp=CAU',
       tags: ['Healthcare', 'Software Development', 'Cloud']
     },
     {
