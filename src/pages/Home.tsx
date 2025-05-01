@@ -230,7 +230,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section ref={statsRef} className="py-16 bg-primary-900 text-white">
+      <section ref={statsRef} className="py-16 bg-primary-900 ">
         <div className="container mx-auto px-4">
           <motion.div 
             className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
@@ -240,10 +240,10 @@ const Home = () => {
           >
             {stats.map((stat, index) => (
               <motion.div key={index} variants={fadeIn} className="group">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2 group-hover:text-secondary-500 transition-colors">
+                <div className="text-3xl md:text-4xl font-bold text-black mb-2 group-hover:text-secondary-500 transition-colors">
                   {stat.value}
                 </div>
-                <div className="text-gray-300 text-sm uppercase tracking-wider">{stat.label}</div>
+                <div className="text-black text-sm uppercase tracking-wider">{stat.label}</div>
               </motion.div>
             ))}
           </motion.div>
@@ -304,12 +304,12 @@ const Home = () => {
               >
                 <div className="bg-gradient-to-r from-primary-900 to-primary-700 rounded-lg shadow-2xl overflow-hidden relative aspect-video">
                   <img 
-                    src="https://www.shutterstock.com/image-photo/business-man-hands-typing-on-260nw-2226546829.jpg" 
+                    src="https://blog.ipleaders.in/wp-content/uploads/2020/03/TrendsinLawFirms_KL_1024x680-1024x680.jpg" 
                     alt="Team collaboration" 
-                    className="w-full h-full object-cover opacity-40"
+                    className="w-full h-full object-cover "
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="w-16 h-16 md:w-20 md:h-20 bg-white rounded-full flex items-center justify-center cursor-pointer transform transition-transform hover:scale-110">
+                    <div className="w-16 h-16 md:w-20 md:h-20  rounded-full flex items-center justify-center cursor-pointer transform transition-transform hover:scale-110">
                       <div className="w-0 h-0 border-t-8 border-t-transparent border-l-12 border-l-secondary-500 border-b-8 border-b-transparent ml-1"></div>
                     </div>
                   </div>
